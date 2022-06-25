@@ -1,0 +1,90 @@
+.count-wrapper {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  background-color: #333;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.count {
+  font-size: 45px;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.input-field-wrapper {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  width: 100%;
+  display: block;
+  max-width: 200px;
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.increment-button,
+.decrement-button {
+  font-size: 1.6rem;
+  margin-top: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  border: none;
+  color: #fff;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  transition: all 0.1s;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.increment-button {
+  background-color: #e60012;
+  border-bottom: 5px solid #9f000c;
+  margin-right: 30px;
+}
+
+.decrement-button {
+  background-color: #00a0e9;
+  border-bottom: 5px solid #0171a4;
+}
+
+.increment-button:hover {
+  border-bottom: 2px solid #9f000c;
+}
+
+.decrement-button:hover {
+  border-bottom: 2px solid #0171a4;
+}
+
+.submit-button {
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+  border-bottom: 3px solid rgb(186, 186, 186);
+  transition: all 0.1s;
+  vertical-align: middle;
+}
+
+.submit-button:hover {
+  border-bottom: 1px solid rgb(186, 186, 186);
+  margin-top: 2px;
+}
