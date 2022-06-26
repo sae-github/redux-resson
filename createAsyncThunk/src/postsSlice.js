@@ -4,7 +4,7 @@ export const getPosts = createAsyncThunk(
   "users/getUsers",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+      const res = await fetch("https://httpstat.us/404");
       if (!res.ok) {
         return rejectWithValue(`${res.status} ${res.statusText}`);
       }
